@@ -6,24 +6,28 @@ ScaledBorderAndShadow: yes
 ScriptType: v4.00+
 PlayResX: 1920
 PlayResY: 1080
+YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Video Zoom Percent: 0.875000
-Scroll Position: 252
-Active Line: 259
-Video Position: 41451
+Audio File: 50 Things That Make No Sense in Minecraft.mp4
+Video File: 50 Things That Make No Sense in Minecraft.mp4
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.750000
+Active Line: 2
+Video Position: 1298
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,HarmonyOS Sans SC Medium,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.3,2.3,2,1,1,150,1
+Style: Default,HarmonyOS Sans SC Medium,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.3,2.3,2,1,1,150,1
 Style: MC-CN,Unifont,50,&H00A0FFF5,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.8,0.3,2,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.04,0:00:06.04,MC-CN,,0,0,0,,{\pos(936,803.143)}{\blur75\fad(200,200)\pos(973.5,879.499)}翻译/压制/字幕制作：HAF半个水果\N♥无偿翻译，用爱发电♥
-Dialogue: 0,0:00:06.51,0:00:16.51,MC-CN,,0,0,0,,{\fs60\blur75\fad(200,200)\pos(943.214,826.545)}使用AI工具翻译，如有不准确的地方请在弹幕或评论区指正，谢谢！\N！！真的有人看不到这行字！！
-Dialogue: 0,0:00:16.79,0:00:26.79,MC-CN,,0,0,0,,{\blur75\fad(200,200)\pos(972.357,817.785)}翻译质量权威评价：原来25年就有小拉即用机翻糊弄人了
+Dialogue: 0,0:00:01.04,0:00:06.04,MC-CN,,0,0,0,,{\pos(960,776.476)}{\blur75\fad(200,200)\pos(973.5,879.499)}翻译/压制/字幕制作：HAF半个水果\N♥无偿翻译，用爱发电♥
+Dialogue: 0,0:00:06.51,0:00:16.51,MC-CN,,0,0,0,,{\fs60\blur75\fad(200,200)\pos(945.881,787.878)}使用AI工具翻译，如有不准确的地方请在弹幕或评论区指正，谢谢！\N！！真的有人看不到这行字！！
+Dialogue: 0,0:00:16.79,0:00:26.79,MC-CN,,0,0,0,,{\blur75\fad(200,200)\pos(961.69,705.785)}翻译质量权威评价：原来25年就有小拉即用机翻糊弄人了
 Dialogue: 0,0:00:00.00,0:00:01.72,Default,,0,0,0,,《我的世界》是一款奇妙的游戏 \NMinecraft is a weird game,
 Dialogue: 0,0:00:01.88,0:00:04.28,Default,,0,0,0,,其中许多设定都让人摸不着头脑 \Nand there's a lot of features that don't make any sense.
 Dialogue: 0,0:00:04.64,0:00:06.08,Default,,0,0,0,,雨滴并非从云层中坠落\NRain doesn't fall from clouds,

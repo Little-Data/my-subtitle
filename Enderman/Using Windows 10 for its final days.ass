@@ -6,25 +6,30 @@ ScaledBorderAndShadow: yes
 ScriptType: v4.00+
 PlayResX: 3840
 PlayResY: 2160
+YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
+Audio File: Using Windows 10 for its final days.mkv
+Video File: Using Windows 10 for its final days.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
 Video Zoom Percent: 0.375000
-Scroll Position: 24
-Active Line: 35
-Video Position: 6744
+Scroll Position: 357
+Active Line: 364
+Video Position: 72589
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,HarmonyOS Sans SC Medium,90,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,2.5,2,1,1,95,1
+Style: Default,HarmonyOS Sans SC Medium,130,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,2.5,2,1,1,95,1
 Style: Newman-CN-4K,等距更纱黑体 SC,90,&H0055FFFF,&H000000FF,&H00FF43E4,&H00FF2FFF,0,0,0,0,100,100,0,0,1,1.5,1.2,2,10,10,20,1
 Style: Enderman-CN-C,更纱黑体 SC,115,&H0000EAFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.6,0.8,2,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.33,0:00:07.34,Newman-CN-4K,,0,0,0,,{\blur10\fad(200,200)}翻译/压制/字幕制作：HAF半个水果
-Dialogue: 0,0:00:08.21,0:00:18.21,Newman-CN-4K,,0,0,0,,{\blur10\fad(200,200)\pos(1951.704,1855.407)}使用AI工具翻译，如有不准确的地方请在弹幕或评论区指正，谢谢！\N！！真的有人看不到这行字！！
-Dialogue: 0,0:00:18.51,0:00:28.51,Newman-CN-4K,,0,0,0,,{\blur10\fad(200,200)\pos(1956.149,1882.519)}翻译质量权威评价：原来25年就有小拉即用机翻糊弄人了
+Dialogue: 0,0:00:08.21,0:00:18.21,Newman-CN-4K,,0,0,0,,{\blur10\fad(200,200)\pos(1951.704,1738.074)}使用AI工具翻译，如有不准确的地方请在弹幕或评论区指正，谢谢！\N！！真的有人看不到这行字！！
+Dialogue: 0,0:00:18.51,0:00:28.51,Newman-CN-4K,,0,0,0,,{\blur10\fad(200,200)\pos(1934.149,1792.519)}翻译质量权威评价：原来25年就有小拉即用机翻糊弄人了
 Dialogue: 0,0:00:07.54,0:00:08.84,Default,,0,0,0,,五年半前 \N5 and a half years ago,
 Dialogue: 0,0:00:08.92,0:00:12.10,Default,,0,0,0,,我做了个恶搞视频 调侃Windows 10即将停止支持\NI made a joke video about Windows 10 reaching its end of life.
 Dialogue: 0,0:00:12.94,0:00:16.10,Default,,0,0,0,,而搭载全新NT11内核的新版Windows\NAnd a new Windows version with an all-new NT11 kernel,
@@ -67,9 +72,9 @@ Dialogue: 0,0:02:09.21,0:02:12.33,Default,,0,0,0,,想想Windows 10生命周期�
 Dialogue: 0,0:02:12.77,0:02:15.35,Default,,0,0,0,,以及我们失去的珍贵事物\Nand how much we have primarily lost.
 Dialogue: 0,0:02:15.91,0:02:16.85,Default,,0,0,0,,它们如同白昼阳光\NThey're like daylight.
 Dialogue: 0,0:02:17.33,0:02:21.17,Default,,0,0,0,,我拉上窗帘便能创造属于自己的天地\NI can close my curtains and it's gonna be amazing.
-Dialogue: 0,0:02:21.67,0:02:23.45,Default,,0,0,0,,{\pos(2480,2065)}Windows 10为我定义了一个时代\NWindows 10 defined an era for me,
+Dialogue: 0,0:02:21.67,0:02:23.45,Default,,0,0,0,,{\pos(2650.667,2073)}Windows 10为我定义了一个时代\NWindows 10 defined an era for me,
 Dialogue: 0,0:02:21.68,0:02:26.58,Enderman-CN-C,,0,0,0,,{\fad(200,200)\pos(810.666,1868)}这是我的一台旧笔记本电脑\N宏碁Aspire 7530G。它产自2008年
-Dialogue: 0,0:02:23.65,0:02:24.95,Default,,0,0,0,,{\pos(2325.333,2089)}正如Windows 7曾经那样\Nmuch like Windows 7 did,
+Dialogue: 0,0:02:23.65,0:02:24.95,Default,,0,0,0,,{\pos(2725.333,2041)}正如Windows 7曾经那样\Nmuch like Windows 7 did,
 Dialogue: 0,0:02:25.25,0:02:27.65,Default,,0,0,0,,{\pos(2640,2081)}只是对更早的岁月我无话可说\Nexcept I don't have much to say about older times.
 Dialogue: 0,0:02:26.68,0:02:30.94,Enderman-CN-C,,0,0,0,,{\fad(200,0)\fscx86\fscy88\pos(1890.666,217.333)}而这个是我珍贵的自制三脚架\N它诞生于2020年。磨砂屏幕才是王道
 Dialogue: 0,0:02:28.01,0:02:30.35,Default,,0,0,0,,那段时光未曾留下太多印记\NI just don't have enough experiences from back then.
@@ -85,7 +90,7 @@ Dialogue: 0,0:02:52.65,0:02:53.39,Default,,0,0,0,,天哪 \NOh my god.
 Dialogue: 0,0:02:53.47,0:02:55.97,Default,,0,0,0,,但这台笔记本将承载我对Windows 11的记忆\NBut it's the laptop I'll be associating with Windows 11,
 Dialogue: 0,0:02:56.15,0:02:58.59,Default,,0,0,0,,尽管它本是Windows 10的天然继任者\Ndespite it being a natural successor to Windows 10.
 Dialogue: 0,0:02:59.81,0:03:02.27,Default,,0,0,0,,到那时 Windows 11 已经变得相当好用了 \NBy that point, Windows 11 has become usable,
-Dialogue: 0,0:03:02.69,0:03:03.81,Default,,0,0,0,,多亏了Startleback的优化\Nthanks to Startleback,
+Dialogue: 0,0:03:02.69,0:03:03.81,Default,,0,0,0,,多亏了StartAllBack的优化\Nthanks to StartAllBack,
 Dialogue: 0,0:03:02.59,0:03:09.71,Enderman-CN-C,,0,0,0,,{\fad(200,200)\pos(1925.333,1745.334)}我并非受StartAllBack赞助才这么说 纯粹是它确实出色
 Dialogue: 0,0:03:03.93,0:03:07.71,Default,,0,0,0,,以及Windows 11正式发布后持续四年的完善改进\Nand the 4 entire years Windows 11 has been in post-release development.
 Dialogue: 0,0:03:08.21,0:03:09.29,Default,,0,0,0,,你觉得自己老了吗？\NDo you feel old yet?
@@ -369,7 +374,7 @@ Dialogue: 0,0:18:51.70,0:18:55.66,Default,,0,0,0,,不过我猜通知可能会在
 Dialogue: 0,0:18:55.66,0:18:57.80,Default,,0,0,0,,Windows更新也毫无动静\NWindows Update is quiet as well,
 Dialogue: 0,0:18:58.06,0:18:59.00,Default,,0,0,0,,情况大致就是这样\Nand that's pretty much it.
 Dialogue: 0,0:18:59.42,0:19:01.42,Default,,0,0,0,,Windows 11终于全面接掌了 \NWindows 11 has finally taken over.
-Dialogue: 0,0:19:02.16,0:19:08.68,Default,,0,0,0,,Windows 10停止支持的特别之处在于：这是首个在系统仍高度实用的情况下迎来的生命周期终点\NWhat's special about Windows 10's end of life is just how much more usable the system in question is at this point
+Dialogue: 0,0:19:02.16,0:19:08.68,Default,,0,0,0,,{\fs95}Windows 10停止支持的特别之处在于：这是首个在系统仍高度实用的情况下迎来的生命周期终点\NWhat's special about Windows 10's end of life is just how much more usable the system in question is at this point
 Dialogue: 0,0:19:08.68,0:19:09.86,Default,,0,0,0,,相较于Windows 7而言\Ncompared to Windows 7.
 Dialogue: 0,0:19:10.92,0:19:13.86,Default,,0,0,0,,Windows 7终止支持时已服役整整十年 \NWindows 7 was 10 years old when it reached its end of life,
 Dialogue: 0,0:19:14.18,0:19:15.90,Default,,0,0,0,,没错 Windows 10现在也正好服役满十年了 \Nbut so is Windows 10 right now.
