@@ -70,7 +70,7 @@ p.sub{color:#a0a0b0;font-size:13px;margin-bottom:12px}
 #top-btn:hover{background:#1565c0}
 .gh-link{position:fixed;top:16px;right:16px;z-index:98;font-size:12px;color:#a0a0b0;text-decoration:none;background:#16213e;border:1px solid #2a2a4a;padding:4px 10px;border-radius:6px;transition:all .2s}
 .gh-link:hover{background:#1a1a3e;border-color:#4fc3f7;color:#4fc3f7}
-@media(max-width:600px){.gh-link{display:none}}
+
 </style>
 </head>
 <body>
@@ -233,7 +233,7 @@ h1{font-size:18px;margin-bottom:2px;color:#e0e0e0}
 #top-btn:hover{background:#1565c0}
 .gh-link{position:fixed;top:16px;right:16px;z-index:98;font-size:12px;color:#a0a0b0;text-decoration:none;background:#16213e;border:1px solid #2a2a4a;padding:4px 10px;border-radius:6px;transition:all .2s}
 .gh-link:hover{background:#1a1a3e;border-color:#4fc3f7;color:#4fc3f7}
-@media(max-width:600px){.gh-link{display:none}}
+
 </style>
 </head>
 <body>

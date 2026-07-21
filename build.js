@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 const { parseFile } = require('./src/parsers');
 const { generateIndexPage, generateFilePage } = require('./src/generate');
 
@@ -41,6 +42,26 @@ function main() {
 
   if (!fs.existsSync(DIST)) fs.mkdirSync(DIST, { recursive: true });
 
+  // Build file→date map from git log in one pass
+  const fileDateMap = {};
+  let gitFiles = 0;
+  try {
+    const log = execSync('git -c core.quotepath=false log --format="%ai" --name-only --diff-filter=ACMR', { encoding: 'utf-8', cwd: ROOT, stdio: ['pipe', 'pipe', 'ignore'] });
+    let currentDate = null;
+    for (const line of log.split('\n')) {
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+      if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}/.test(trimmed)) {
+        const p = trimmed.split(/[ :+-]/);
+        currentDate = new Date(p[0], p[1]-1, p[2], p[3], p[4], p[5]);
+      } else if (currentDate && !fileDateMap[trimmed]) {
+        fileDateMap[trimmed] = currentDate;
+        gitFiles++;
+      }
+    }
+    console.log('Git dates mapped: ' + gitFiles);
+  } catch (e) { console.log('Git not available, using filesystem dates'); }
+
   const fileMetas = [];
   let parsed = 0;
   let failed = 0;
@@ -49,8 +70,8 @@ function main() {
     try {
       const result = parseFile(fullPath);
       if (!result) continue;
-      const stat = fs.statSync(fullPath);
-      const createdAt = stat.birthtime;
+      const gitKey = relPath.replace(/\\/g, '/');
+      const createdAt = fileDateMap[gitKey] || fs.statSync(fullPath).birthtime;
 
       const html = generateFilePage({
         path: relPath,
