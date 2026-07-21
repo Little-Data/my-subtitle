@@ -104,6 +104,9 @@ function main() {
     console.log(`Written: dist/${outFile}`);
   }
 
+  // Write .nojekyll to disable Jekyll on GitHub Pages
+  writePage('.nojekyll', '');
+
   console.log(`\nIndex pages: ${totalPages}, File pages: ${parsed}`);
   console.log('Done! Open dist/index.html in a browser to view.');
 }
